@@ -1,2 +1,4 @@
 .idea/
 invoice.iml
+services/node_modules/
+services/npm-debug.log
