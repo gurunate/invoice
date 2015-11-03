@@ -1,14 +1,15 @@
 {
-  "name": "www",
+  "name": "webapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Invvoice webapp",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Nate Johnson",
   "license": "ISC",
   "dependencies": {
-    "guid": "0.0.12"
+    "guid": "0.0.12",
+    "hapi": "^11.0.3"
   }
 }
