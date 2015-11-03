@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "guid": "0.0.12",
-    "hapi": "^11.0.3"
+    "handlebars": "^4.0.4",
+    "hapi": "^11.0.3",
+    "hoek": "^3.0.1",
+    "vision": "^3.0.0"
   }
 }
