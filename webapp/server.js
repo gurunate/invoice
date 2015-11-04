@@ -37,18 +37,18 @@ server.route({
             message: 'World'
         };
 
-        reply.view('index', data, { layout: 'crazy' });
-        //reply.view('index', data);
+        //reply.view('index', data, { layout: 'crazy' });
+        reply.view('index', data);
     }
 });
 
-server.route({
-    method: 'GET',
-    path: '/{name}',
-    handler: function (request, reply) {
-        reply('Hello, ' + encodeURIComponent(request.params.name) + '!');
-    }
-});
+//server.route({
+//    method: 'GET',
+//    path: '/{name}',
+//    handler: function (request, reply) {
+//        reply('Hello, ' + encodeURIComponent(request.params.name) + '!');
+//    }
+//});
 
 server.start(function () {
     console.log('Server running at:', server.info.uri);
