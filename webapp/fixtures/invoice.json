@@ -22,6 +22,12 @@
       "notes": "More description her",
       "unit": 3000,
       "qty": 2
+    },
+    {
+      "description": "Purple horse with dingle berries",
+      "notes": "More description her",
+      "unit": 3000,
+      "qty": 2
     }
   ],
   "shipping": 35
