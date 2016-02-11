@@ -1,11 +1,11 @@
 web:
-  image: nginx
+  build: ./webapp
   ports:
     - "80:80"
   volumes:
-    - /home/nate/dev/invoice/webapp:/usr/share/nginx/html:ro
+    - ./webapp:/usr/share/nginx/html:ro
 mongo:
-  image: tutum/mongodb
+  build: ./project
   ports:
     - "27017:27017"
     - "28017:28017"

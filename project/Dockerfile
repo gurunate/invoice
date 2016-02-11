@@ -1,0 +1,3 @@
+FROM tutum/mongodb
+
+EXPOSE 27017 28017
