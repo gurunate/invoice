@@ -1,0 +1,13 @@
+web:
+  image: nginx
+  ports:
+    - "80:80"
+  volumes:
+    - /home/nate/dev/invoice/webapp:/usr/share/nginx/html:ro
+mongo:
+  image: tutum/mongodb
+  ports:
+    - "27017:27017"
+    - "28017:28017"
+  volumes:
+    - /var/lib/mongodb/:/data/db
